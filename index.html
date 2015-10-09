@@ -1,0 +1,52 @@
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script src="js/typed.js"></script>
+<link rel="stylesheet" href="css/terminal.css">
+<div class="terminal-window">
+ 	<div class="toolbar">
+		<div class="top">
+			<div class="lights">
+				<div class="light red">
+					<div class="glyph">×</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>				
+				<div class="light yellow">
+					<div class="glyph">-</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+				<div class="light green">
+					<div class="glyph">+</div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+			</div>
+			<div class="title">
+				<div class="folder">
+					<div class="tab"></div>
+					<div class="body"></div>
+				</div>
+				morris - bash 128x42
+			</div>
+			<div class="bubble">
+				<div class="shine"></div>
+				<div class="glow"></div>
+			</div>
+		</div>
+	</div>
+	<div class="tbody">
+		<div class="content">
+		</div>
+	</div>	
+</div>
+<script>
+$(".content").typed({
+    strings: ["<p> Last login: Sun Oct  4 08:44:00 on ttys002 <br /> morrisdeMacBook-Air:~ morris$ p^500w^500d^500 <br /> /User/morris<br /> morrisdeMacBook-Air:~ morris$ cd Des^100ktop^1000 <br />morrisdeMacBook-Air:Desktop morris$ ls^1000 <br />main.c mac.h max.c <br />morrisdeMacBook-Air:Desktop morris$ g^500c^500c^500 main.c^1000 max.c^1000 -std=c99 -o test.out<br />morrisdeMacBook-Air:Desktop morris$ ./test.out <br /> ^5000</p>",
+    	"<p>Powered by Markdown, YAML, typed.js. Author Morris.^5000</p>"],
+    contentType: 'html',
+    typeSpeed: -1000,
+    backSpeed: -5000,
+    cursorChar: "",
+    loop: true,
+});
+</script>
